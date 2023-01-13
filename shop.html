@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop</title>
+        <link rel="icon" href="ico.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="ionicons.min.css">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .product img{
+                width: 100%;
+                height: auto;
+                box-sizing: border-box;
+                object-fit: cover;
+            }
+
+            #Mobile > div.row.mx-auto.container > div.row.mx-auto.container > div.row.mx-auto.container > div.row.mx-auto.container > div.row.mx-auto.container > nav > ul > li.page-item.active > a{
+
+               background-color: coral;
+               border-color: coral;
+               
+            }
+
+            .pagination a{
+                color: black;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+            <div class="container">
+                <img src="Logo.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span><i id="bar" class="fa fa-bars" aria-hidden="true"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link active" href="shop.html">Shop</a>
+                        </li>
+    
+    
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact.html">Contact Us</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="account.html">Account</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <i class="fa fa-search" aria-hidden="true" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                            <i onclick="window.location.href='cart.html'"  class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <i onclick="window.location.href='whishlist.html'" class="fa fa-heart " aria-hidden="true"></i>
+                        </li>
+    
+    
+    
+    
+    
+    
+                    </ul>
+    
+                </div>
+            </div>
+        </nav>
+
+
+        <section id="Mobile" class="my-5 py-5">
+            <div class=" container mt-5 py-3">
+                <h2>Shop Page</h3>
+                <hr class="">
+                <p>Here you can check out our All Products with fair price</p>
+            </div>
+    
+            <div class="row mx-auto container">
+                <div onclick="window.location.href='sproduct.html'" class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class=" img-fluid" src="Products/1.jpg" alt="s 22">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h5 class="p-name">Samsung Galaxy S22</h5>
+                    <h4 class="p-price">Rs/= 50,000 </h4>
+                    <button class="buy-button">Buy now</button>
+                </div>
+    
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class=" img-fluid" src="Products/2.jpg" alt="s 22">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h5 class="p-name">Dell Moniter</h5>
+                    <h4 class="p-price">Rs/= 20,000 </h4>
+                    <button class="buy-button">Buy now</button>
+                </div>
+    
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class=" img-fluid" src="Products/3.jpg" alt="s 22">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h5 class="p-name">Razor G22 Mouse</h5>
+                    <h4 class="p-price">Rs/= 57,800 </h4>
+                    <button class="buy-button">Buy now</button>
+                </div>
+    
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class=" img-fluid" src="Products/4.jpg" alt="s 22">
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h5 class="p-name">Asus Tuf Gaming i7-5000</h5>
+                    <h4 class="p-price">Rs/= 24,000 </h4>
+                    <button class="buy-button">Buy now</button>
+                </div>
+
+                <div class="row mx-auto container">
+                    <div class="product text-center col-lg-3 col-md-4 col-12">
+                        <img class=" img-fluid" src="Products/5.jpg" alt="s 22">
+                        <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="p-name">Asus ROG Phone 5</h5>
+                        <h4 class="p-price">Rs/= 50,000 </h4>
+                        <button class="buy-button">Buy now</button>
+                    </div>
+        
+                    <div class="product text-center col-lg-3 col-md-4 col-12">
+                        <img class=" img-fluid" src="Products/6.jpg" alt="s 22">
+                        <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="p-name">ONE PLUS ACE PRO</h5>
+                        <h4 class="p-price">Rs/= 20,000 </h4>
+                        <button class="buy-button">Buy now</button>
+                    </div>
+        
+                    <div class="product text-center col-lg-3 col-md-4 col-12">
+                        <img class=" img-fluid" src="Products/7.jpg" alt="s 22">
+                        <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="p-name">Google Pixel 5a</h5>
+                        <h4 class="p-price">Rs/= 57,800 </h4>
+                        <button class="buy-button">Buy now</button>
+                    </div>
+        
+                    <div class="product text-center col-lg-3 col-md-4 col-12">
+                        <img class=" img-fluid" src="Products/8.jpg" alt="s 22">
+                        <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="p-name">Samsung Galaxy A04s</h5>
+                        <h4 class="p-price">Rs/= 24,000 </h4>
+                        <button class="buy-button">Buy now</button>
+                    </div>
+
+                    <div class="row mx-auto container">
+                        <div class="product text-center col-lg-3 col-md-4 col-12">
+                            <img class=" img-fluid" src="Products/9.jpg" alt="s 22">
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="p-name">Apple iPhone 11 | 128GB</h5>
+                            <h4 class="p-price">Rs/= 50,000 </h4>
+                            <button class="buy-button">Buy now</button>
+                        </div>
+            
+                        <div class="product text-center col-lg-3 col-md-4 col-12">
+                            <img class=" img-fluid" src="Products/10.jpg" alt="s 22">
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="p-name">Apple iPhone 11</h5>
+                            <h4 class="p-price">Rs/= 20,000 </h4>
+                            <button class="buy-button">Buy now</button>
+                        </div>
+            
+                        <div class="product text-center col-lg-3 col-md-4 col-12">
+                            <img class=" img-fluid" src="Products/11.jpg" alt="s 22">
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="p-name">iPhone 11 Pro</h5>
+                            <h4 class="p-price">Rs/= 57,800 </h4>
+                            <button class="buy-button">Buy now</button>
+                        </div>
+            
+                        <div class="product text-center col-lg-3 col-md-4 col-12">
+                            <img class=" img-fluid" src="Products/12.jpg" alt="s 22">
+                            <div class="star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="p-name">iPhone 14 Plus </h5>
+                            <h4 class="p-price">Rs/= 24,000 </h4>
+                            <button class="buy-button">Buy now</button>
+                        </div>
+
+                        <div class="row mx-auto container">
+                            <div class="product text-center col-lg-3 col-md-4 col-12">
+                                <img class=" img-fluid" src="Products/13.jpg" alt="s 22">
+                                <div class="star">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <h5 class="p-name">Apple MacBook Air 13.3-inch intel Chip</h5>
+                                <h4 class="p-price">Rs/= 50,000 </h4>
+                                <button class="buy-button">Buy now</button>
+                            </div>
+                
+                            <div class="product text-center col-lg-3 col-md-4 col-12">
+                                <img class=" img-fluid" src="Products/14.jpg" alt="s 22">
+                                <div class="star">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <h5 class="p-name">Apple MacBook Pro 16″ M1 Pro</h5>
+                                <h4 class="p-price">Rs/= 20,000 </h4>
+                                <button class="buy-button">Buy now</button>
+                            </div>
+                
+                            <div class="product text-center col-lg-3 col-md-4 col-12">
+                                <img class=" img-fluid" src="Products/15.jpg" alt="s 22">
+                                <div class="star">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <h5 class="p-name">HP Laptop 15s-du1114TU Celeron</h5>
+                                <h4 class="p-price">Rs/= 57,800 </h4>
+                                <button class="buy-button">Buy now</button>
+                            </div>
+                
+                            <div class="product text-center col-lg-3 col-md-4 col-12">
+                                <img class=" img-fluid" src="Products/16.jpg" alt="s 22">
+                                <div class="star">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                <h5 class="p-name">Lenovo IdeaPad 3</h5>
+                                <h4 class="p-price">Rs/= 24,000 </h4>
+                                <button class="buy-button">Buy now</button>
+                            </div>
+
+                            <div class="row mx-auto container">
+                                <div class="product text-center col-lg-3 col-md-4 col-12">
+                                    <img class=" img-fluid" src="Products/17.jpg" alt="s 22">
+                                    <div class="star">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5 class="p-name">Verbatim 1080p Full HD Webcam</h5>
+                                    <h4 class="p-price">Rs/= 50,000 </h4>
+                                    <button class="buy-button">Buy now</button>
+                                </div>
+                    
+                                <div class="product text-center col-lg-3 col-md-4 col-12">
+                                    <img class=" img-fluid" src="Products/18.jpg" alt="s 22">
+                                    <div class="star">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5 class="p-name">Asus VP249H IPS 24″ 75Hz M37 USB 3.0</h5>
+                                    <h4 class="p-price">Rs/= 20,000 </h4>
+                                    <button class="buy-button">Buy now</button>
+                                </div>
+                    
+                                <div class="product text-center col-lg-3 col-md-4 col-12">
+                                    <img class=" img-fluid" src="Products/19.jpg" alt="s 22">
+                                    <div class="star">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5 class="p-name">Lexar® JumpDrive® M37 USB 3.0</h5>
+                                    <h4 class="p-price">Rs/= 57,800 </h4>
+                                    <button class="buy-button">Buy now</button>
+                                </div>
+                    
+                                <div class="product text-center col-lg-3 col-md-4 col-12">
+                                    <img class=" img-fluid" src="Products/20.jpg" alt="s 22">
+                                    <div class="star">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5 class="p-name">Poroda Braider HDMI Lightning Cable</h5>
+                                    <h4 class="p-price">Rs/= 24,000 </h4>
+                                    <button class="buy-button">Buy now</button>
+                                </div>
+
+                                <nav aria-label="...">
+                                    <ul class="pagination mt-5">
+                                      <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                      </li>
+                                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item " aria-current="page">
+                                        <a class="page-link" href="#">2</a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                      <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                      </li>
+                                    </ul>
+                                  </nav>
+    
+    
+            </div>
+    
+    
+        </section>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Search Your Product</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-outline-success">search</button>
+    
+                    
+                  </div>
+    
+                  <div class="row">
+    
+                    <div class="col-4 mt-3">
+                        <select data-filter="make" class="filter-make filter form-control">
+                            <option value="">Categories</option>
+                            <option value="">Phones</option>
+                            <option value="">laptops</option>
+                            <option value="">Mouse</option>
+                            <option value="">Show All</option>
+                        </select>
+                      </div>
+    
+                      <div class="col-4 mt-3">
+                        <select data-filter="make" class="filter-make filter form-control">
+                            <option value="">OS</option>
+                            <option value="">ios</option>
+                            <option value="">mac</option>
+                            <option value="">Windows</option>
+                            <option value="">Show All</option>
+                        </select>
+                      </div>
+    
+                      <div class="col-4 mt-3">
+                        <select data-filter="make" class="filter-make filter form-control">
+                            <option value="">brand</option>
+                            <option value="">Samsung</option>
+                            <option value="">Apple</option>
+                            <option value="">Asus</option>
+                            <option value="">Show All</option>
+                        </select>
+                      </div>
+        
+    
+    
+                  </div>
+    
+    
+                  <div class="row">
+    
+    
+                      <div class="col-6 mt-3">
+                        <input type="text" placeholder="Price From" class="form-control">
+                      </div>
+    
+                      <div class="col-6 mt-3">
+                        <input type="text" placeholder="Price To" class="form-control">
+                      </div>
+        
+    
+    
+                  </div>
+    
+                  
+    
+                  
+    
+    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+        <footer class="footer-07">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <h2 class="footer-heading"><a href="#" class="logo">NewTechSolutions.com</a></h2>
+                        <p class="menu">
+                            <a href="index.html">Home</a>
+                            <a href="shop.html">SHOP</a>
+                            <a href="cart.html">cart</a>
+                            <a href="admin.html">Admin</a>
+                            <a href="Signup.html">Register</a>
+                            <a  href="contact.html">Contact Us</a>
+                        </p>
+                </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12 text-center">
+                        <p class="copyright">
+                      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by <a href="https://pasanswijekoon.github.io/About/" target="_blank">@pasanwijekoon</a>
+                 
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+            integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
